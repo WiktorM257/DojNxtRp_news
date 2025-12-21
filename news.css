@@ -1,0 +1,31 @@
+.news_hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #162e51, #0e1f36);
+    color: #fff;
+}
+
+.news_list {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.news_item {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 25px 0;
+}
+
+.news_item h2 {
+    margin: 10px 0;
+    color: #e3e9f0;
+}
+
+.news_date {
+    font-size: 13px;
+    color: #9fb4d1;
+}
+
+.news_item.important h2 {
+    color: #f5c97a;
+}
