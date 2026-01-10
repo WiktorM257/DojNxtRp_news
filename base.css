@@ -85,7 +85,6 @@ body {
     to { transform: rotate(360deg); }
 }
 
-/* Fade-in */
 .fade-in {
     opacity: 0;
     transform: translateY(30px);
@@ -162,7 +161,6 @@ body {
     opacity: 0.85;
 }
 
-/* LISTA */
 .news-list {
     max-width: 1100px;
     margin: 0 auto;
@@ -224,4 +222,5 @@ body {
         padding: 22px;
     }
 }
+
 
