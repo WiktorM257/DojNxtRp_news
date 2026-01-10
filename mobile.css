@@ -1,3 +1,4 @@
+/* ========== MOBILE / RESPONSIVE ========== */
 
 @media(max-width: 768px) {
 
@@ -38,6 +39,10 @@
 
 
 
+/* =====================================================
+   DOKUMENTY – WYGLĄD JAK NA 2. ZDJĘCIU (FORCE OVERRIDE)
+   Wklej na sam koniec OSTATNIEGO CSS (np. mobile.css)
+   ===================================================== */
 
 .documents {
     background: #1f3f63 !important;
@@ -144,6 +149,7 @@
 }
 
 
+/* ===== HAMBURGER BUTTON ===== */
 #hamburger {
     display: none;
     width: 32px;
@@ -161,6 +167,7 @@
 
 }
 
+/* linie */
 #hamburger span {
     position: absolute;
     left: 0;
@@ -172,6 +179,7 @@
     display: block;
 }
 
+/* burger */
 #hamburger span:nth-child(1) {
     top: 0;
 }
@@ -185,6 +193,7 @@
     bottom: 0;
 }
 
+/* X */
 #hamburger.open span:nth-child(1) {
     top: 50%;
     transform: translateY(-50%) rotate(45deg);
@@ -200,6 +209,7 @@
     transform: translateY(-50%) rotate(-45deg);
 }
 
+/* ===== MOBILE MENU ===== */
 .mobile-menu {
     position: fixed;
     top: 62px;
@@ -262,6 +272,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+/* ===== OVERLAY ===== */
 .overlay {
     position: fixed;
     top: 0;
@@ -281,6 +292,7 @@
     visibility: visible;
 }
 
+/* ===== RESPONSIVE ===== */
 @media (max-width: 968px) {
     #hamburger {
         display: flex;
@@ -304,11 +316,13 @@
     }
 }
 
+/* Smooth scroll dla mobile */
 .mobile-menu {
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
 }
 
+/* Disable scroll na body gdy menu otwarte */
 body.menu-open {
     overflow: hidden;
 }
